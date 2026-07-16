@@ -4,10 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bruninha Surfistinha · Massagista Tântrica e Acompanhante · Interior de SP</title>
-<meta name="description" content="Bruninha Surfistinha — massagista tântrica e acompanhante no interior de São Paulo. Agendamento pelo WhatsApp com 3h de antecedência.">
+<meta name="description" content="Bruninha Surfistinha — massagista tântrica e acompanhante no interior de São Paulo. Entre em contato por e-mail com 3h de antecedência.">
 <meta name="robots" content="index, follow">
 <meta property="og:title" content="Bruninha Surfistinha · Interior de São Paulo">
-<meta property="og:description" content="Atendimento personalizado com sigilo. Agende pelo WhatsApp.">
+<meta property="og:description" content="Atendimento personalizado com sigilo. Saiba mais por e-mail.">
 <meta property="og:image" content="img/bruna-03.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +19,7 @@
   --magenta:#ff3e8a;    /* ação / destaque */
   --champanhe:#e8c9a0;  /* detalhes */
   --areia:#f5ede8;      /* texto */
-  --whats:#25d366;
+  --email:#ff3e8a;
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -90,22 +90,25 @@ a{color:inherit}
   color:rgba(245,237,232,.85);
   margin-bottom:2rem;
 }
-.btn-whats{
+.btn-email{
   display:inline-flex;
   align-items:center;
   gap:.6rem;
-  background:var(--whats);
-  color:#06130a;
+  background:var(--email);
+  color:#fff;
   font-weight:600;
   font-size:.95rem;
   padding:.95rem 1.8rem;
   border-radius:999px;
   text-decoration:none;
   transition:transform .2s ease, box-shadow .2s ease;
-  box-shadow:0 0 0 rgba(37,211,102,.4);
+  box-shadow:0 0 0 rgba(255,62,138,.4);
 }
-.btn-whats:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(37,211,102,.35)}
-.btn-whats svg{width:20px;height:20px;fill:#06130a}
+.btn-email:hover{
+  transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(255,62,138,.35);
+}
+.btn-email svg{width:20px;height:20px;fill:#fff}
 
 /* ---------- seções ---------- */
 section{padding:4.5rem 1.5rem}
@@ -214,21 +217,21 @@ footer .assinatura{
   margin-bottom:.6rem;
 }
 
-/* ---------- whatsapp fixo ---------- */
-.whats-fixo{
+/* ---------- e-mail fixo ---------- */
+.email-fixo{
   position:fixed;
   right:1.1rem;
   bottom:1.1rem;
   z-index:50;
   width:58px;height:58px;
   border-radius:50%;
-  background:var(--whats);
+  background:var(--email);
   display:flex;align-items:center;justify-content:center;
   box-shadow:0 6px 24px rgba(0,0,0,.45);
   transition:transform .2s ease;
 }
-.whats-fixo:hover{transform:scale(1.08)}
-.whats-fixo svg{width:30px;height:30px;fill:#06130a}
+.email-fixo:hover{transform:scale(1.08)}
+.email-fixo svg{width:28px;height:28px;fill:#fff}
 
 @media (prefers-reduced-motion: reduce){
   *{transition:none!important}
@@ -245,10 +248,12 @@ footer .assinatura{
   <div class="hero-conteudo">
     <p class="eyebrow">Massagista tântrica &amp; acompanhante · Interior de São Paulo</p>
     <h1>Bruninha <span>Surfistinha</span></h1>
-    <p>Atendimento personalizado, com sigilo e sem pressa. Agende pelo WhatsApp com 3 horas de antecedência.</p>
-    <a class="btn-whats" href="https://wa.me/message/5CG73QWPWRRFH1" target="_blank" rel="noopener">
-      <svg viewBox="0 0 32 32"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.6.8 5 2.3 7L4 29l7.2-2.2c1.9 1 4 1.6 4.8 1.6 6.6 0 12-5.4 12-12S22.6 3 16 3zm6.9 17c-.3.8-1.7 1.6-2.3 1.6-.6.1-1.4.1-2.2-.1-.5-.2-1.2-.4-2-.8-3.6-1.5-5.9-5.1-6.1-5.4-.2-.2-1.5-1.9-1.5-3.7s.9-2.6 1.3-3c.3-.4.7-.4 1-.4h.7c.2 0 .5-.1.8.6.3.8 1.1 2.7 1.2 2.9.1.2.2.4 0 .7-.1.2-.2.4-.4.6l-.6.7c-.2.2-.4.4-.2.8.2.4 1 1.7 2.2 2.7 1.5 1.4 2.8 1.8 3.2 2 .4.2.6.1.9-.1.2-.3 1-1.2 1.3-1.6.3-.4.5-.3.9-.2.4.1 2.2 1 2.6 1.2.4.2.6.3.7.5.1.2.1.9-.2 1.7z"/></svg>
-      Agendar no WhatsApp
+    <p>Atendimento personalizado, com sigilo e sem pressa. Entre em contato por e-mail com 3 horas de antecedência.</p>
+    <a class="btn-email" href="mailto:brunataiane008@gmail.com?subject=Quero%20saber%20mais&body=Olá%2C%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais." aria-label="Saiba mais por e-mail">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
+      </svg>
+      Saiba mais por e-mail
     </a>
   </div>
 </header>
@@ -302,8 +307,8 @@ footer .assinatura{
     <p class="sub" style="text-align:center">Conteúdo exclusivo &amp; redes</p>
     <div class="links-lista">
 
-      <a class="link-card destaque" href="https://wa.me/message/5CG73QWPWRRFH1" target="_blank" rel="noopener">
-        <div><div class="nome">WhatsApp</div><div class="desc">Agendamento direto comigo</div></div>
+      <a class="link-card destaque" href="mailto:brunataiane008@gmail.com?subject=Quero%20saber%20mais&body=Olá%2C%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais." aria-label="Saiba mais por e-mail">
+        <div><div class="nome">Saiba mais por e-mail</div><div class="desc">Entre em contato para informações e agendamento</div></div>
         <div class="seta">→</div>
       </a>
 
@@ -356,8 +361,10 @@ footer .assinatura{
   <p>Conteúdo destinado exclusivamente a maiores de 18 anos.<br>© 2026 · Todos os direitos reservados.</p>
 </footer>
 
-<a class="whats-fixo" href="https://wa.me/message/5CG73QWPWRRFH1" target="_blank" rel="noopener" aria-label="Chamar no WhatsApp">
-  <svg viewBox="0 0 32 32"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.6.8 5 2.3 7L4 29l7.2-2.2c1.9 1 4 1.6 4.8 1.6 6.6 0 12-5.4 12-12S22.6 3 16 3zm6.9 17c-.3.8-1.7 1.6-2.3 1.6-.6.1-1.4.1-2.2-.1-.5-.2-1.2-.4-2-.8-3.6-1.5-5.9-5.1-6.1-5.4-.2-.2-1.5-1.9-1.5-3.7s.9-2.6 1.3-3c.3-.4.7-.4 1-.4h.7c.2 0 .5-.1.8.6.3.8 1.1 2.7 1.2 2.9.1.2.2.4 0 .7-.1.2-.2.4-.4.6l-.6.7c-.2.2-.4.4-.2.8.2.4 1 1.7 2.2 2.7 1.5 1.4 2.8 1.8 3.2 2 .4.2.6.1.9-.1.2-.3 1-1.2 1.3-1.6.3-.4.5-.3.9-.2.4.1 2.2 1 2.6 1.2.4.2.6.3.7.5.1.2.1.9-.2 1.7z"/></svg>
+<a class="email-fixo" href="mailto:brunataiane008@gmail.com?subject=Quero%20saber%20mais&body=Olá%2C%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais." aria-label="Saiba mais por e-mail">
+  <svg viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
+  </svg>
 </a>
 
 </body>
