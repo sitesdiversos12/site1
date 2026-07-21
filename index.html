@@ -26,6 +26,7 @@
   --champanhe:#e8c9a0;
   --areia:#f5ede8;
   --email:#ff3e8a;
+  --telegram:#229ED9;
 }
 
 *{
@@ -335,7 +336,7 @@ section{
   color:#fff;
 }
 
-/* ---------- Instagram em destaque ---------- */
+/* ---------- links com ícone ---------- */
 
 .link-conteudo{
   display:flex;
@@ -360,6 +361,8 @@ section{
   fill:#fff;
 }
 
+/* ---------- Instagram em destaque ---------- */
+
 .link-card.instagram-destaque{
   background:linear-gradient(
     120deg,
@@ -376,6 +379,25 @@ section{
 }
 
 .link-card.instagram-destaque .seta{
+  color:#fff;
+}
+
+/* ---------- Telegram VIP ---------- */
+
+.link-card.telegram-vip{
+  background:linear-gradient(
+    120deg,
+    #229ED9,
+    #168AC2
+  );
+  border:none;
+}
+
+.link-card.telegram-vip .desc{
+  color:rgba(255,255,255,.85);
+}
+
+.link-card.telegram-vip .seta{
   color:#fff;
 }
 
@@ -724,6 +746,31 @@ footer .assinatura{
         <div>
           <div class="nome">Telegram</div>
           <div class="desc">Canal fechado</div>
+        </div>
+
+        <div class="seta">→</div>
+      </a>
+
+      <a
+        class="link-card telegram-vip"
+        href="https://t.me/Bruninhaasurfistinhabot"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Grupo VIP Telegram"
+      >
+        <div class="link-conteudo">
+
+          <div class="icone-social" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M21.944 2.506a1.5 1.5 0 0 0-1.53-.216L2.925 9.034a1.5 1.5 0 0 0 .116 2.84l4.42 1.474 1.72 5.158a1.5 1.5 0 0 0 2.512.57l2.447-2.447 4.288 3.16a1.5 1.5 0 0 0 2.36-.923l2.68-14.86a1.5 1.5 0 0 0-.524-1.5zM9.17 12.65l8.923-6.19-7.35 7.45-.563 2.39-1.01-3.65zm9.62 4.99-5.77-4.25 7.65-7.75-1.88 12z"/>
+            </svg>
+          </div>
+
+          <div>
+            <div class="nome">Grupo VIP Telegram</div>
+            <div class="desc">Acesse o grupo exclusivo</div>
+          </div>
+
         </div>
 
         <div class="seta">→</div>
